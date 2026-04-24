@@ -1,13 +1,13 @@
 # Tobams Group — Training & Development Page
 
-A pixel-perfect, fully responsive implementation of the Tobams Group Training & Development page, built with Next.js 15 (App Router) and Tailwind CSS v4.
+A fully responsive implementation of the Tobams Group Training & Development page, built with Next.js 16 and Tailwind CSS v4.
 
 ---
 
 ## Links
 
-- **Live URL:** _[Add your Vercel URL here after deployment]_
-- **GitHub Repo:** _[Add your GitHub repo link here]_
+- **Live URL:** https://tobams-group-zeta.vercel.app/
+- **GitHub Repo:** https://github.com/coolkolex/tobams-group
 - **Figma Design:** https://www.figma.com/design/wuqCLkK1feTgB6xxSRRwZu/Frontend-Intern-Assessment?node-id=0-1&p=f&t=qxnAKp4Ael8QtLYz-0
 
 ---
@@ -16,8 +16,8 @@ A pixel-perfect, fully responsive implementation of the Tobams Group Training & 
 
 | Tool | Version | Reason |
 |---|---|---|
-| Next.js | 15.3.1 | Required — App Router, server components, `next/image`, `next/font` |
-| React | 19 | Peer dependency of Next.js 15 |
+| Next.js | 16.2.4
+| React | 19
 | Tailwind CSS | v4 | Required — all styling via utility classes, no other CSS framework used |
 | TypeScript | 5 | Type safety and maintainability |
 
@@ -26,14 +26,14 @@ A pixel-perfect, fully responsive implementation of the Tobams Group Training & 
 ## Setup Instructions
 
 ### Prerequisites
-- Node.js >= 18.18.0
+- Node.js
 - npm >= 9
 
 ### Installation
 
 ```bash
 # 1. Clone the repo
-git clone <your-github-repo-url>
+git clone https://github.com/coolkolex/tobams-group
 cd tobams-group
 
 # 2. Install dependencies
@@ -53,17 +53,17 @@ npm start
 ```
 
 
-## 🎨 Design Decisions & Technical Assumptions
+## Design Decisions & Technical Assumptions
 
 ### Fonts
-- **Playfair Display** — used for all headings, matching the serif italic style in the Figma design
-- **Nunito** — used for all body text and UI elements, matching the rounded sans-serif in the design
+- **Playfair Display** — used for all headings
+- **Nunito** — used for all body text and UI elements
 - Both loaded via `next/font/google` for performance (no layout shift, self-hosted by Next.js)
 
 ### Tailwind v4
 - Using `@tailwindcss/postcss` plugin as required for Tailwind v4 setup
 - Theme tokens (colors, fonts) defined via `@theme {}` in `globals.css` — the v4 way
-- All responsive breakpoints use Tailwind prefixes (`sm:`, `md:`, `lg:`) — **no custom media queries**
+- All responsive breakpoints use Tailwind prefixes (`sm:`, `md:`, `lg:`)
 
 ### Images
 - All images use `next/image` for automatic optimization, lazy loading, and correct sizing

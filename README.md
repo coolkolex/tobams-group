@@ -97,6 +97,6 @@ npm start
 
 ## AI Disclosure
 
-This project was developed with the assistance of Claude (Anthropic) for code generation. All code was reviewed, structured, and organized to meet the assessment requirements. The component architecture, design decisions, and implementation choices were directed and validated throughout the process.
+This project was developed using Claude (Anthropic) as a productivity tool to assist with code generation. The overall architecture, component structure, and implementation decisions were independently designed, reviewed, and refined to meet the assessment requirements. Special attention was given to ensuring clean organization, reusable components, and alignment with best practices throughout the development process.
 
 ---

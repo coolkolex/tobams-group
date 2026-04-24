@@ -68,7 +68,6 @@ npm start
 ### Images
 - All images use `next/image` for automatic optimization, lazy loading, and correct sizing
 - Since the Figma design uses stock photography, Unsplash CDN images are used as placeholders that visually match the design content (professionals, training, meetings, etc.)
-- Production deployment should swap these for the actual brand assets
 
 ### Responsive Layout
 - **425px (mobile):** Single column stacking, hamburger nav, single testimonial card, vertical footer

@@ -4,7 +4,7 @@ A pixel-perfect, fully responsive implementation of the Tobams Group Training & 
 
 ---
 
-## 🔗 Links
+## Links
 
 - **Live URL:** _[Add your Vercel URL here after deployment]_
 - **GitHub Repo:** _[Add your GitHub repo link here]_
@@ -12,7 +12,7 @@ A pixel-perfect, fully responsive implementation of the Tobams Group Training & 
 
 ---
 
-## 🛠 Stack
+## Stack
 
 | Tool | Version | Reason |
 |---|---|---|
@@ -23,7 +23,7 @@ A pixel-perfect, fully responsive implementation of the Tobams Group Training & 
 
 ---
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 - Node.js >= 18.18.0
@@ -52,31 +52,6 @@ npm run build
 npm start
 ```
 
----
-
-## 📁 Component Structure
-
-```
-src/
-├── app/
-│   ├── globals.css          # Tailwind v4 imports + CSS custom properties
-│   ├── layout.tsx           # Root layout with next/font (Playfair Display + Nunito)
-│   └── page.tsx             # Main page — assembles all section components
-└── components/
-    ├── Navbar.tsx            # Sticky top nav with mobile hamburger menu
-    ├── Hero.tsx              # Full-width hero with background image + overlay
-    ├── TrainingSection.tsx   # Reusable alternating image+text section (used 3×)
-    ├── ManagementSection.tsx # Dark maroon card — Management Development Program
-    ├── LMSSection.tsx        # Lavender section — Learning Management System
-    ├── CEOSection.tsx        # Pink card — Transformation Hub with Jite Newton
-    ├── TrainingConsultantSection.tsx # Training The Consultant section
-    ├── CTABanner.tsx         # Full-width dark purple CTA banner
-    ├── Testimonials.tsx      # Slider testimonials (3-col desktop, 1-col mobile)
-    ├── PreFooterCTA.tsx      # "Let's work together" dark pre-footer
-    └── Footer.tsx            # Full footer with 3-col links, offices, contact
-```
-
----
 
 ## 🎨 Design Decisions & Technical Assumptions
 
@@ -121,26 +96,8 @@ src/
 
 ---
 
-## 🤖 AI Disclosure
+## AI Disclosure
 
 This project was developed with the assistance of Claude (Anthropic) for code generation. All code was reviewed, structured, and organized to meet the assessment requirements. The component architecture, design decisions, and implementation choices were directed and validated throughout the process.
 
 ---
-
-## ✅ Submission Checklist
-
-- [x] Public GitHub repo link
-- [x] Live deployment URL (Vercel)
-- [x] README with setup steps, live URL, stack, design decisions, known issues
-- [x] Figma link referenced
-- [x] No CSS frameworks other than Tailwind
-- [x] No UI kits or copied template components
-- [x] Next.js with App Router
-- [x] All images via `next/image`
-- [x] Fonts via `next/font`
-- [x] Semantic HTML & accessibility
-- [x] Responsive at 425px, 768px, 1280px+
-- [x] Tailwind responsive prefixes only (no custom media queries)
-- [x] No inline styles
-- [x] Components in `/components` directory
-- [x] AI usage disclosed
